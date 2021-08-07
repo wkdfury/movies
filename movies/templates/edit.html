@@ -1,0 +1,13 @@
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+<!--    -->
+    {{form.as_p}}
+<!--    <form>-->
+<!--        <input name="name" type="text" placeholder="name"><br>-->
+<!--        <input name="desc" type="text" placeholder="description"><br>-->
+<!--        <input name="year" type="number" placeholder="year"><br>-->
+<!--        <input type="image">-->
+<!--    </form>-->
+
+    <input type="submit">
+</form>
